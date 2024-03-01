@@ -1,0 +1,21 @@
+GET localhost:3000/books/all
+Content-Type: application/json
+
+###
+
+GET localhost:3000/books/1
+Content-Type: application/json
+
+###
+
+PUT localhost:3000/books/2
+Content-Type: application/json
+
+{
+  "publish": 1998
+}
+
+###
+
+DELETE localhost:3000/books/1
+Content-Type: application/json
